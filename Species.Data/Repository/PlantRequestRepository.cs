@@ -23,6 +23,7 @@ namespace Species.Data.Repository
             if (objFromDb != null)
             {
                 //objFromDb.Name = plantRequest.Name;
+                objFromDb.CountyId = plantRequest.CountyId;
                 objFromDb.County = plantRequest.County;
                 objFromDb.SubCounty = plantRequest.SubCounty;
                 objFromDb.Location = plantRequest.Location;
