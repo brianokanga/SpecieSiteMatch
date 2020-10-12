@@ -5,57 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20201006055404_AddModels.cs" />
-    <Compile Remove="Migrations\20201006055404_AddModels.Designer.cs" />
-    <Compile Remove="Migrations\20201006055730_AddModels.cs" />
-    <Compile Remove="Migrations\20201006055730_AddModels.Designer.cs" />
-    <Compile Remove="Migrations\20201006055912_AddModels.cs" />
-    <Compile Remove="Migrations\20201006055912_AddModels.Designer.cs" />
-    <Compile Remove="Migrations\20201006061431_AddModels.cs" />
-    <Compile Remove="Migrations\20201006061431_AddModels.Designer.cs" />
-    <Compile Remove="Migrations\20201006070242_AddModels.cs" />
-    <Compile Remove="Migrations\20201006070242_AddModels.Designer.cs" />
-    <Compile Remove="Migrations\20201006071629_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006071629_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006071742_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006071742_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006072708_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006072708_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006080830_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006080830_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006081015_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006081015_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006090050_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006090050_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006090331_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006090331_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006091151_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006091151_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006091444_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006091444_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006104029_AddModelsToDb.cs" />
-    <Compile Remove="Migrations\20201006104029_AddModelsToDb.Designer.cs" />
-    <Compile Remove="Migrations\20201006115020_AddCountyIdToPlantRequest.cs" />
-    <Compile Remove="Migrations\20201006115020_AddCountyIdToPlantRequest.Designer.cs" />
-    <Compile Remove="Models\SpecieInformation.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Models\PlantRequest.cs~RFcc07ef.TMP" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
